@@ -3,3 +3,18 @@
     background-color: lightpink;
     font-family: Verdana, Dejavu Sans, sans-serif; 
 }
+#ID {
+    color: blue;
+    font-size: 36px;
+}
+.odd-number2 {
+    color: black;
+    background-color: lightpink;
+    font-family: verdana, Dejavu Sans, sans-serif;
+    font-size: 24px;
+}
+#ID2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
