@@ -18,3 +18,22 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+
+/*Exercise 3*/
+/*Grouping Selector, 2 similar classes with small differences.*/
+.blackyellow,
+.yellowblack
+{
+    font-family: Helvetica, Times New Roman, sans-serif;
+    font-size: 28px;
+}
+.blackyellow {
+    color: white;
+    background-color: black;
+}
+
+.yellowblack {
+    color: black;
+    background-color: yellow;
+}
