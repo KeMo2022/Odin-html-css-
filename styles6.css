@@ -3,29 +3,35 @@
     color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-    font-size: 14px;
-}
-
+/*I changed the order the classes were placed
+I moved .small-para below .para.*/
 .para {
     font-size: 22px;
 }
 
-.confirm {
+.small-para {
+    font-size: 16px;
+}
+/* Used Id selector instead of class */
+/* Increased the font size to 20px.*/
+#confirm-button {
     background: green;
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
-.button {
-    background-color: rgb(255, 255, 255)
+#cancel-button {
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
-.child {
+/* I used descendant combinator to make sure
+that the child class had a red text color*/ 
+.text .child {
     color: red;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 div.text {
